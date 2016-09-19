@@ -14,11 +14,11 @@ urlIP = "http://ksuweb.kennesaw.edu/~jgarrido/CS4720_assign/"
 urlOS = "http://ksuweb.kennesaw.edu/~jgarrido/CS3502_assign/"
 urlIPNotes = "http://ksuweb.kennesaw.edu/~jgarrido/CS4720_notes/"
 urlOSNotes = "http://ksuweb.kennesaw.edu/~jgarrido/CS3502_notes/"
-OUTPUT_DIR_IP = 'D:/User/Tenorio/Google Drive/Computer Science/University/KSU/Internet Programming/'
-OUTPUT_DIR_OS = 'D:/User/Tenorio/Google Drive/Computer Science/University/KSU/OS/'
-OUTPUT_DIR_AA = 'D:/User/Tenorio/Google Drive/Computer Science/University/KSU/Algorithms Analysys/'
-Assignments = 'Assignments/'
-Notes = 'Notes/'
+OUTPUT_DIR_IP = '' #output directory for internet programming
+OUTPUT_DIR_OS = ''#output directory for OS
+OUTPUT_DIR_AA = ''#output directory for algorithm analysis
+Assignments = '' #Folder for assigments
+Notes = '' #Folder for Notes
 file_types = ['.a','.b','.css','.d','.f','.g','.i','.j','.q','.p','.sqlite','.zip']
 
 webdir = "http://ksuweb.kennesaw.edu"
@@ -89,4 +89,4 @@ print('----------------------------------------------------------\n')
 
 urlParserDKIM("http://ksuweb.kennesaw.edu/~dkim76/courses/Fall%202016%20-%20CS4306/Fall%202016%20-%20CS4306.html",OUTPUT_DIR_AA,"")
 print("\n\n\n")
-input("Press any key to quit...\n\n\n")
+input("Press any enter to quit...\n\n\n")
